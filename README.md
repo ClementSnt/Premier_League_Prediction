@@ -1,4 +1,6 @@
-# Projet Prédiction de Résultats de la Premier League
+# ⚽ **Projet Prédiction de Résultats de la Premier League**
+
+⚠️⚠️ PROJET NON TERMINE / EN COURS DE REALISATION ⚠️⚠️
 
 ## Description  
 Ce projet vise à construire un modèle prédictif pour anticiper les résultats des matchs de la Premier League anglaise, en s’appuyant sur des données historiques extraites via l’API FootyStats. L’objectif est de démontrer mes compétences en extraction et traitement de données, analyse, clustering, modélisation prédictive et visualisation avec Streamlit.
