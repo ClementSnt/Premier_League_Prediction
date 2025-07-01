@@ -9,7 +9,7 @@ Ce projet vise à construire un modèle prédictif pour anticiper les résultats
 
 ## Structure du projet
 
-### 1. Extraction des données  
+### 1. Extraction des données ✅
 - Utilisation de l’API FootyStats pour récupérer les données des matchs (scores, statistiques d’équipe, possession, xG, etc.)  
 - Stockage des données par saison dans des fichiers CSV
 
