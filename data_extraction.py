@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from pandas import json_normalize
 
-API_KEY = "YOUR_API_KEY" # mettre votre API KEY
+API_KEY = "YOUR_API_KEY" # mettre l'API KEY ici
 
 
 LEAGUE_ID = 1625  # selection de la ligue souhaitée, ici Premier League saison 2018-2019
@@ -25,6 +25,6 @@ if response.status_code == 200:
         print("Import données ok")
         print(df.head())  # Check de l'import
     else:
-        print("⚠️ Aucune donnée reçue.")
+        print("Aucune donnée reçue.")
 else:
-    print(f"Erreur!! {response.status_code} : {response.text}")
+    print(f"Erreur : {response.status_code} : {response.text}")
